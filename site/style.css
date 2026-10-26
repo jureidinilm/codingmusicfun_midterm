@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Univers67';
+  font-style: normal;
+  src: url('ass/Univers67.otf');
+}
+:root{
+    --textcolor:rgb(0, 0, 0);
+    --container:rgb(255, 255, 255);
+    --linkcolor:rgb(0, 5, 57);
+}
+body{
+    font-family: univers67;
+    background-color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+body a{
+    color: var(--linkcolor);
+}
+body img{
+    max-width: 100%;
+}
+
+.main-container {
+    background-color:var(--container);
+    border-radius: 15px;
+    color: var(--textcolor);
+    margin: 5px;
+    padding:17px;
+    box-shadow: var(--container) 0px 0px 4px 0px, var(--container) 0px 0px 16px 0px;
+}
+.main-container h1{
+    font-family: univers67;
+    text-align: center;
+}
+.buttonbox img{
+    max-height: 30px;
+    max-width: fit-content;
+}
